@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ink: #18221f;
+  --muted: #718079;
+  --paper: #f6f8f5;
+  --line: #e5ebe6;
+  --green: #177b5b;
+  --green-dark: #116348;
+}
+
+* { box-sizing: border-box; }
+html { min-height: 100%; background: var(--paper); }
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse at 50% -10%, rgba(206, 236, 219, .56), transparent 42rem),
+    var(--paper);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button, input { font: inherit; }
+::selection { background: #ccebd9; color: #143d2b; }
