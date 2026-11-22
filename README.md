@@ -2,7 +2,7 @@
 
 This project lets users ask questions about the Pagila DVD rental database in plain English. A Next.js chat interface sends questions to a FastAPI backend, which asks Gemini to generate PostgreSQL, validates the query, and runs it against a read-only Neon Postgres database. The answer includes an explanation, SQL, and query results.
 
-**Live demo:** [Open the app](https://your-demo-url.vercel.app) *(replace this placeholder with the deployed Vercel URL)*
+**Live demo:** [Open the app](https://text-to-sql-ivory.vercel.app/) 
 
 ## Tech stack
 
